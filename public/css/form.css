@@ -11,15 +11,14 @@ body{
     width: 100%;
     min-height: 100vh;
     height: auto;
+    display: flex;
     justify-content: center;
     align-items:center;
-    text-align: center;
     background: url('../img/homeBG.jpg');
-    background-position: center;
     background-size: cover;
+    background-position: center;
     font-family: 'roboto', sans-serif;
     text-transform: capitalize;
-    display: flex;
 }
 
 .form{
@@ -27,6 +26,15 @@ body{
     height: auto;
     color: #fff;
     font-family: 'roboto', sans-serif;
+}
+
+.heading{
+    opacity: 0;
+    text-transform: capitalize;
+    text-align: center;
+    font-size: 80px;
+    font-weight: 300;
+    margin-bottom: 50px;
 }
 
 input,
@@ -44,15 +52,7 @@ input,
     transition: .5s;
     text-transform: capitalize;
 }
-.heading{
-    opacity: 0;
-    font-size: 90px;
-    text-transform: capitalize;
-    text-align: center;
-    font-size: 80px;
-    font-weight: 300;
-    margin-bottom: 50px;
-}
+
 input::placeholder{
     color: #fff
 }
